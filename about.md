@@ -8,10 +8,4 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
-
-{% highlight javascript %}
-(() => console.log('hello, world666!'))();
-{% endhighlight %}
-
-## title
+一个简单的人，想写些简单的事。
