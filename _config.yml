@@ -45,11 +45,11 @@ timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 author:
   name: Zyqzyq
   email: 497533265@qq.com #your Email address e.g. someone@site.com
-  # facebook:  #your Facebook username
+  facebook:100023255255862    #your Facebook username
   # twitter:  #your Twitter username
   github: zyqzyq #your GitHub username
   # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
+  weibo:  3446345742  #your Weibo username
   # douban:  #your Douban username
   # linkedin:  #your Linkedin username
 
@@ -91,7 +91,7 @@ paginate_path: /blog/page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
-excerpt_type: text # text | html
+excerpt_type: html # text | html
 
 ## Sources ##
 # sources: bootcss #eg: bootcss | unpkg
