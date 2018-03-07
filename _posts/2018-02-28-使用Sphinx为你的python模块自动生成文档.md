@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "NAO 机器人语音识别"
+title: "使用Sphinx为你的python模块自动生成文档"
 date: 2018-2-28 10:25:06 -0700
 comments: true
 ---
