@@ -4,7 +4,7 @@ title: Hello Kotlin
 date: 2017-08-11 16:25:06 -0700
 key: 20170811
 tags:
-- Android
+- android
 - kotlin
 - hello world
 

@@ -4,9 +4,9 @@ title: 仿开眼APP kotlin
 date: 2017-10-09 16:25:06 -0700
 key: 20171019
 tags:
-- Android
+- android
 - kotlin
-- Eyepetizer
+- eyepetizer
 
 ---
 
