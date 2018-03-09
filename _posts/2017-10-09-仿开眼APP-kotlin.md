@@ -1,8 +1,13 @@
----
+﻿---
 layout: post
-title: "仿开眼APP kotlin"
+title: 仿开眼APP kotlin
 date: 2017-10-09 16:25:06 -0700
-key:2018
+key: blog
+tags:
+- bootstrap
+- javascript
+- php
+- AngularJS
 
 ---
 
