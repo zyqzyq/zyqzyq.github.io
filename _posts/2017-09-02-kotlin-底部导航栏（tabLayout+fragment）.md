@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "kotlin 底部导航栏（tabLayout + fragment）"
+key:2018
 date: 2017-09-02 16:25:06 -0700
 comments: true
-key:2018
 ---
 ##准备工作
   在build.grale中添加
