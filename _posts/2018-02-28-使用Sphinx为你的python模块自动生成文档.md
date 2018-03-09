@@ -1,9 +1,17 @@
 ---
+author: zyqzyq
+key: 2018
+date: 2015-04-28 17:42:32+00:00
 layout: post
 title: "使用Sphinx为你的python模块自动生成文档"
-key: 2018
+categories:
+- Works
+- Tech
 tags:
-- Test
+- bootstrap
+- javascript
+- php
+- AngularJS
 
 ---
 
