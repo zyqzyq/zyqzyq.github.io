@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Toolbar Kotlin 简单使用"
-key:2018
 date: 2017-08-14 16:25:06 -0700
-comments: true
+key:2018
+tags:
+- Test
 ---
 ## 准备工作 ##
 1.在build.gradle添加依赖

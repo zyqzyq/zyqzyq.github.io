@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Centos 安装twisted"
-key:2018
 date: 2017-06-05 16:25:06 -0700
-comments: true
-
+key:2018
+tags:
+- Test
 ---
 
 请尊重分享成果，转载请注明出处，本文来自Alex_Xia，Building_Home,原文链接：

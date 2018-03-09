@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "仿开眼APP kotlin"
-key:2018
 date: 2017-10-09 16:25:06 -0700
-comments: true
+key:2018
+tags:
+- Test
 ---
 
 
