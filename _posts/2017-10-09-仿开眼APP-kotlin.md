@@ -2,12 +2,11 @@
 layout: post
 title: 仿开眼APP kotlin
 date: 2017-10-09 16:25:06 -0700
-key: blog
+key: 20171019
 tags:
-- bootstrap
-- javascript
-- php
-- AngularJS
+- Android
+- kotlin
+- Eyepetizer
 
 ---
 

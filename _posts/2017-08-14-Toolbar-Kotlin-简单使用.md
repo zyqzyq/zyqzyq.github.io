@@ -2,12 +2,11 @@
 layout: post
 title: Toolbar Kotlin 简单使用
 date: 2017-08-14 16:25:06 -0700
-key: blog
+key: 20170814
 tags:
-- bootstrap
-- javascript
-- php
-- AngularJS
+- Android
+- Kotlin
+- Toolbar
 
 ---
 ## 准备工作 ##

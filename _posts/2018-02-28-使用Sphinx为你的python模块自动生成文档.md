@@ -3,12 +3,11 @@ author: zyqzyq
 date: 2018-02-28 17:42:32+00:00
 layout: post
 title: 使用Sphinx为你的python模块自动生成文档
-key: blog
+key: 20180228
 tags:
-- bootstrap
-- javascript
-- php
-- AngularJS
+- python
+- sphinx
+
 
 ---
 

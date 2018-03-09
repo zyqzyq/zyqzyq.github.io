@@ -2,12 +2,11 @@
 layout: post
 title: Hello Kotlin
 date: 2017-08-11 16:25:06 -0700
-key: blog
+key: 20170811
 tags:
-- bootstrap
-- javascript
-- php
-- AngularJS
+- Android
+- kotlin
+- hello world
 
 ---
 

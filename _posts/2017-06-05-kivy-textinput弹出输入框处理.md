@@ -2,12 +2,11 @@
 layout: post
 title: kivy textinput弹出输入框处理
 date: 2017-06-05 16:25:06 -0700
-key: blog
+key: 20170605
 tags:
-- bootstrap
-- javascript
-- php
-- AngularJS
+- kivy
+- textinput
+
 ---
 
 在kivy打包Android程序后运行，点击输入框会自动弹出输入法将自己的控件遮挡住，在群友（校长巨佬）的指导下找到了softinput_mod 参数，可以控制输入法的弹窗模式。
