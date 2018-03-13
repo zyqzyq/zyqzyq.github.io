@@ -1,12 +1,10 @@
-﻿---
+---
 layout: post
 title: Hello Kotlin
 date: 2017-08-11 16:25:06 -0700
 key: 20170811
 tags:
-- android
 - kotlin
-- hello world
 
 ---
 
