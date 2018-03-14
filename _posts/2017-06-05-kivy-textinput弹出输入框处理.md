@@ -2,7 +2,7 @@
 layout: post
 title: kivy textinput弹出输入框处理
 date: 2017-06-05 16:25:06 -0700
-key: 20170605
+key: 20170605-1
 tags:
 - kivy
 
