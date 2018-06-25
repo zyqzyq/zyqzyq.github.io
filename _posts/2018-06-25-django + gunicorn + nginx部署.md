@@ -2,7 +2,7 @@
 author: zyqzyq
 date: 2018-06-25 9:16:32+00:00
 layout: post
-title:django + gunicorn + nginx 部署
+title: django + gunicorn + nginx 部署
 key: 20180625
 tags:
 - django
