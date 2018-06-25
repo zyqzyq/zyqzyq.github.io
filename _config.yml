@@ -59,16 +59,16 @@ toc:
 
 ## Comment system (Disqus) ##
 disqus:
-  # shortname: zyqzyq #the Disqus shortname for the site
+  shortname: zyqzyq #the Disqus shortname for the site
 
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  clientID: 575a438ab04ac597bff4 #Github Application Client ID
-  clientSecret: 576a43958a259e02c6274784f1de34d4bc906344 #Github Application Client Secret
-  repository:  zyqzyq.github.io #Github repo
-  owner: zyqzyq #Github repo owner
-  admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+  # clientID:  #Github Application Client ID
+  # clientSecret:  #Github Application Client Secret
+  # repository:  zyqzyq.github.io #Github repo
+  # owner: zyqzyq #Github repo owner
+  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
      - zyqzyq
 
 ## Google Analytics ##
@@ -91,7 +91,7 @@ paginate_path: /blog/page:num
 
 ## Post excerpts ##
 excerpt_separator: <!--more-->
-excerpt_type: html # text | html
+excerpt_type: text # text | html
 
 ## Sources ##
 # sources: bootcss #eg: bootcss | unpkg
