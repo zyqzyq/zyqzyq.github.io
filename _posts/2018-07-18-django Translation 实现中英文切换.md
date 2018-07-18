@@ -114,7 +114,7 @@ def my_view(request):
 
 [更多介绍](https://docs.djangoproject.com/zh-hans/2.0/topics/i18n/translation/#internationalization-in-python-code)
 
-### 在tmplate代码中
+### 在template代码中
 
 需要将{%load i18n%}
 放到模板文件头部（继承的文件也需要假如该声明）
