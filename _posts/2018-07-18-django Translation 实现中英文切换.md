@@ -115,12 +115,7 @@ def my_view(request):
 
 ### 在tmplate代码中
 
-需要将 
-{% highlight html linenos %}
-    {% load i18n %}
-{% endhighlight %}
-
- 放到模板文件头部（继承的文件也需要假如该声明）
+需要将 {％ load i18n ％}放到模板文件头部（继承的文件也需要假如该声明）
 
 {％trans％}模板标记转换为常量字符串（用单引号或双引号括起来）或变量内容：
 
