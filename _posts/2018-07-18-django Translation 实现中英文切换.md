@@ -190,17 +190,17 @@ django-admin compilemessages
 ```
 {％ load i18n ％}
 
-<form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+<form action="{％ url 'set_language' ％}" method="post">{％ csrf_token ％}
     <input name="next" type="hidden" value="{{ redirect_to }}" />
     <select name="language">
-        {% get_current_language as LANGUAGE_CODE %}
-        {% get_available_languages as LANGUAGES %}
-        {% get_language_info_list for LANGUAGES as languages %}
-        {% for language in languages %}
-            <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+        {％ get_current_language as LANGUAGE_CODE ％}
+        {％ get_available_languages as LANGUAGES ％}
+        {％ get_language_info_list for LANGUAGES as languages ％}
+        {％ for language in languages ％}
+            <option value="{{ language.code }}"{％ if language.code == LANGUAGE_CODE ％} selected{％ endif ％}>
                 {{ language.name_local }} ({{ language.code }})
             </option>
-        {% endfor %}
+        {％ endfor ％}
     </select>
     <input type="submit" value="Go" />
 </form>
@@ -212,4 +212,5 @@ django-admin compilemessages
 
 以上是简单的实现中英文切换的步骤，如需了解更多，可以点击更多介绍进入官网进行了解。
 
+提示：复制后请把%替换为小写。
 
