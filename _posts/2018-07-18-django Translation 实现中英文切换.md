@@ -105,9 +105,9 @@ sudo apt-get install gettext
 在此示例中，文本“欢迎访问我的网站”。 被标记为翻译字符串：
 ```
 from django.http import HttpResponse
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext
 def my_view(request):
-    output = _("欢迎访问我的网站")
+    output = gettext("欢迎访问我的网站")
     return HttpResponse(output)
 ```
 
