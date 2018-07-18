@@ -106,7 +106,6 @@ sudo apt-get install gettext
 ```
 from django.http import HttpResponse
 from django.utils.translation import gettext as _
-
 def my_view(request):
     output = _("欢迎访问我的网站")
     return HttpResponse(output)
