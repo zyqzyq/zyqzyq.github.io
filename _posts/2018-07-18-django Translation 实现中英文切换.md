@@ -116,7 +116,9 @@ def my_view(request):
 ### 在tmplate代码中
 
 需要将 
-'''{% load i18n %}'''
+{% highlight html linenos %}
+    {% load i18n %}
+{% endhighlight %}
 
  放到模板文件头部（继承的文件也需要假如该声明）
 
