@@ -116,29 +116,27 @@ def my_view(request):
 
 ### 在tmplate代码中
 
-需要将<code>{% load i18n %}<code>
+需要将{％ load i18n ％}
 放到模板文件头部（继承的文件也需要假如该声明）
 
-{%trans%}模板标记转换为常量字符串（用单引号或双引号括起来）或变量内容：
 
-
-
+{％trans％}模板标记转换为常量字符串（用单引号或双引号括起来）或变量内容：
 
 
 ```python
-<title>{% trans "This is the title." %}</title>
-<title>{% trans myvar %}</title>
+<title>{％ trans "This is the title." ％}</title>
+<title>{％ trans myvar ％}</title>
 ```
 
 如果您的翻译需要带变量的字符串（占位符），请改用{％blocktrans％}。
 
 ```
-{% blocktrans %}This string will have {{ value }} inside.{% endblocktrans %}
+{％ blocktrans ％}This string will have {{ value }} inside.{％ endblocktrans ％}
 ```
 如果您想要检索已翻译的字符串而不显示它，可以使用以下语法：
 
 ```
-{% trans "This is the title" as the_title %}
+{％ trans "This is the title" as the_title ％}
 
 <title>{{ the_title }}</title>
 <meta name="description" content="{{ the_title }}">
@@ -190,7 +188,7 @@ django-admin compilemessages
 在模板中添加以下代码
 
 ```
-{% load i18n %}
+{％ load i18n ％}
 
 <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
     <input name="next" type="hidden" value="{{ redirect_to }}" />
