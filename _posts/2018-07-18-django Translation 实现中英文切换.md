@@ -114,12 +114,12 @@ def my_view(request):
 
 [更多介绍](https://docs.djangoproject.com/zh-hans/2.0/topics/i18n/translation/#internationalization-in-python-code)
 
-### 在template代码中
+### 在tmplate代码中
 
-需要将{%load i18n%}
+需要将\{% load i18n %\}
 放到模板文件头部（继承的文件也需要假如该声明）
 
-{%trans%}模板标记转换为常量字符串（用单引号或双引号括起来）或变量内容：
+\{%trans%\}模板标记转换为常量字符串（用单引号或双引号括起来）或变量内容：
 
 
 
