@@ -3,8 +3,8 @@
 
 # gems source for the rest
 source 'https://rubygems.org/'
-
-gemspec
+gem 'jekyll'
+#gemspec
 
 # For dev under windows, I know that yikes....
 
